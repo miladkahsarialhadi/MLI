@@ -24,6 +24,13 @@ MLI is supporting Windows x86 platform, but I will develope it to support other 
 - Linux x64 (Soon)
 - macOS x64 (Soon)
 
+# Download:
+
+You can download MLI from the following links:
+
+- [MLI v0.1.1 x86](https://www.google.com)
+- [MLI v0.1.1 x64](https://www.google.com)
+
 
 # Contact:
 - e-mail: m.kahsari@gmail.com
