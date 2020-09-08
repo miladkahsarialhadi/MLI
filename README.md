@@ -2,6 +2,9 @@
 
 [![Generic badge](https://img.shields.io/badge/version-0.1.1-red.svg)](https://shields.io/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Build Status](https://github.com/telegramdesktop/tdesktop/workflows/Windows./badge.svg)](https://github.com/telegramdesktop/tdesktop/actions)
+[![Build Status](https://github.com/telegramdesktop/tdesktop/workflows/MacOS./badge.svg)](https://github.com/telegramdesktop/tdesktop/actions)
+[![Build Status](https://github.com/telegramdesktop/tdesktop/workflows/Linux./badge.svg)](https://github.com/telegramdesktop/tdesktop/actions)
 
 Milad Library Injector is a simple tool to inject libraries to binaries! In computer programming, Library (DLL, SO, dyLib ...) injection is a technique used for running code within the address space of another process by forcing it to load a library.
 
