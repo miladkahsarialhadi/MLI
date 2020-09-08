@@ -79,7 +79,7 @@ void MainWindow::on_pushButtonButtonInject_clicked()
     // 4. Write szLibPath to the allocated memory
     bool write_status = WriteProcessMemory(m_handle_remote_process,
                                            m_mapped_library_address,
-                                           (void*)m_library_path_copied,
+                                           reinterpret_cast<void*>(m_library_path_copied),
                                            sizeof(m_library_path_copied),
                                            NULL);
 
@@ -198,7 +198,7 @@ void MainWindow::on_actionInjection_triggered()
     // 4. Write szLibPath to the allocated memory
     bool write_status = WriteProcessMemory(m_handle_remote_process,
                                            m_mapped_library_address,
-                                           (void*)m_library_path_copied,
+                                           reinterpret_cast<void*>(m_library_path_copied),
                                            sizeof(m_library_path_copied),
                                            NULL);
 
