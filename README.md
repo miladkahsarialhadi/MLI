@@ -19,9 +19,10 @@ Library injection is often used by external programs to influence the behavior o
 MLI is supporting Windows x86 platform, but I will develope it to support other architecture and common binary formats. In the following list, I put the list of operating system and their architecture that I wanted to support in near future. 
 
 - Windows x86
-- Windows x64 (Soon)
+- Windows x64 
 - Linux x86 (Soon)
-- Linux x64(Soon)
+- Linux x64 (Soon)
+- macOS x64 (Soon)
 
 
 # Contact:
