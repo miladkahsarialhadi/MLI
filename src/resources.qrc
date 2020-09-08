@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/wolfIcon.jpg</file>
+        <file>images/about.png</file>
+        <file>images/quit.png</file>
+        <file>images/select.png</file>
+        <file>images/checklist.png</file>
+        <file>images/engineering.png</file>
+        <file>images/close.png</file>
+    </qresource>
+</RCC>

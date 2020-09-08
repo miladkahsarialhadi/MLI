@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProcessList</class>
+ <widget class="QMainWindow" name="ProcessList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>341</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Process List Window</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/prefix1/images/engineering.png</normaloff>:/new/prefix1/images/engineering.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <column>
+       <property name="text">
+        <string>Process Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Process ID</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayoutButtons">
+      <item>
+       <widget class="QPushButton" name="pushButtonRefreshList">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	background-color: rgb(170, 85, 255);
+	display:inline-block;
+	padding:0.5em 1.5em;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Consolas',sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+	text-align:center;
+	position:relative;
+	height: 30px;
+	width: 80px;
+}
+
+QPushButton:hover{
+	background-color: rgb(184, 184, 184);
+};
+
+active{
+	box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+
+@media all and (max-width:30em){
+ display:block;
+ margin:0.2em auto;
+}</string>
+        </property>
+        <property name="text">
+         <string>Refresh List</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/new/prefix1/images/engineering.png</normaloff>:/new/prefix1/images/engineering.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonClose">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	background-color: rgb(255, 0, 0);
+	display:inline-block;
+	padding:0.5em 1.5em;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Consolas',sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+	text-align:center;
+	position:relative;
+	height: 30px;
+	width: 80px;
+}
+
+QPushButton:hover{
+	background-color: rgb(184, 184, 184);
+};
+
+active{
+	box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+
+@media all and (max-width:30em){
+ display:block;
+ margin:0.2em auto;
+}</string>
+        </property>
+        <property name="text">
+         <string>Close</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/new/prefix1/images/close.png</normaloff>:/new/prefix1/images/close.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
