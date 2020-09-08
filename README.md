@@ -30,8 +30,8 @@ MLI is supporting Windows x86 platform, but I will develope it to support other 
 
 You can download MLI from the following links:
 
-- [MLI v0.1.1 x86](https://github.com/miladkahsarialhadi/MLI/blob/master/bin/windows/MLI32-v0.1.1.zip)
-- [MLI v0.1.1 x64](https://github.com/miladkahsarialhadi/MLI/blob/master/bin/windows/MLI64-v0.1.1.zip)
+- Windows x86: [MLI v0.1.1 x86](https://github.com/miladkahsarialhadi/MLI/blob/master/bin/windows/MLI32-v0.1.1.zip)
+- Windows x64: [MLI v0.1.1 x64](https://github.com/miladkahsarialhadi/MLI/blob/master/bin/windows/MLI64-v0.1.1.zip)
 
 
 # Contact:
