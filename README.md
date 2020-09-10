@@ -18,7 +18,7 @@ A program used to inject arbitrary code into arbitrary processes is called a Lib
 
 # Supported OS:
 
-MLI is supporting Windows x86 platform, but I will develope it to support other architecture and common binary formats. In the following list, I put the list of operating system and their architecture that I wanted to support in near future. 
+MLI is supporting Windows platform, but I will develope it to support other architecture and common binary formats. In the following list, I put the list of operating system and their architecture that I wanted to support in near future. 
 
 - Windows x86
 - Windows x64 
