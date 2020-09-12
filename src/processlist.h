@@ -26,10 +26,15 @@ public:
     explicit ProcessList(QWidget *parent = nullptr);
     ~ProcessList();
 
+signals:
+    void m_new_pid(const uint64_t arg_pid);
+
 private slots:
     void on_pushButtonClose_clicked();
 
     void on_pushButtonRefreshList_clicked();
+
+    void on_tableWidget_cellClicked(int row, int column);
 
 private:
     Ui::ProcessList *ui;

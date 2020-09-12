@@ -1,8 +1,6 @@
 #include "processlist.h"
 #include "ui_processlist.h"
 
-
-
 ProcessList::ProcessList(QWidget *parent) : QMainWindow(parent), ui(new Ui::ProcessList)
 {
     ui->setupUi(this);
@@ -116,4 +114,13 @@ void ProcessList::on_pushButtonRefreshList_clicked()
             }
         }
     }
+}
+
+void ProcessList::on_tableWidget_cellClicked(int row, int column)
+{
+    Q_UNUSED(column);
+
+    const auto pid = ui->tableWidget->item(row, 1)->text();
+    emit m_new_pid(pid.toULongLong());
+    close();
 }

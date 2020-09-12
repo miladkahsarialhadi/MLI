@@ -1,12 +1,12 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-
-
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     QWidget::setFixedSize(650, 330);
+
+    connect(&m_process_list_window, &ProcessList::m_new_pid, this, &MainWindow::commint_pid);
 }
 
 MainWindow::~MainWindow()
@@ -14,6 +14,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::commint_pid(const uint64_t arg_pid)
+{
+    ui->lineEditProcessID->setText(QString::number(arg_pid));
+}
 
 void MainWindow::on_pushButtonLibrary_clicked()
 {
