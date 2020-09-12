@@ -32,7 +32,7 @@ public:
     ~MainWindow();
 
 public slots:
-    void commint_pid(const uint64_t arg_pid);
+    void ProcessIdShow(const uint64_t arg_pid);
 
 private slots:
     void on_pushButtonLibrary_clicked();
