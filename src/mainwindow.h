@@ -10,15 +10,6 @@
 
 #include "globals.h"
 
-#include <windows.h>
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <TlHelp32.h>
-#include <tchar.h>
-#include <psapi.h>
-
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE

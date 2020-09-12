@@ -72,7 +72,7 @@
              <string notr="true">color:rgb(255, 85, 255)</string>
             </property>
             <property name="text">
-             <string>MLI Version: 0.1.2 x64</string>
+             <string>MLI Version: 0.1.2</string>
             </property>
            </widget>
           </item>

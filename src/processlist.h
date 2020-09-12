@@ -6,13 +6,7 @@
 #include <QtCore>
 #include <QtGui>
 
-#include <windows.h>
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <TlHelp32.h>
-#include <tchar.h>
-#include <psapi.h>
+#include "globals.h"
 
 namespace Ui {
 class ProcessList;
